@@ -1,11 +1,12 @@
 setTimeout(myFunc, 4000);
 function myFunc() {
-  document.getElementById("countdown-text").innerHTML = "THE COUNTDOWN!";
+  document.getElementById("countdown-text").innerHTML =
+    "THE COUNTDOWN TO MY BIRTHDAY!";
   document.getElementById("countdown-text").style.padding = "5rem";
 }
 
 //set time to the countdown date
-let countDownDate = new Date("Dec 25, 2021 00:00:00").getTime();
+let countDownDate = new Date("Nov 15, 2021 00:00:00").getTime();
 
 //make the timer function update every second
 let countDown = setInterval(function () {
